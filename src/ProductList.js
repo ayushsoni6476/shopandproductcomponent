@@ -25,6 +25,7 @@ export default function ProductList() {
           {[0, 1, 2, 4].map(value => (
             <Grid key={value} item>
               <Product />
+              <Product />
             </Grid>
           ))}
         </Grid>
